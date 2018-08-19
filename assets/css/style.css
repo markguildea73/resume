@@ -17,8 +17,36 @@
 .ul-menu-color-download {
     background-color: #525252;
 }
+/*.................................special padding/margins/text*/
+
+
+
+h1,
+h2,
+h3,
+h4 {
+    margin:0;
+    
+}
+
+.uppercase {
+    text-transform: uppercase;
+    
+}
+
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
 
 /*.................................heading*/
+
 header {
     
     margin: 0;
@@ -107,7 +135,39 @@ header {
 /*.................................heading.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: #f5f5f5;
+    background: rgba(0,0,0,0.2);
     height: 120px;
 }
 
+/*.................................footer*/
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    
+}
+
+footer .cv-pdf i{
+    color: #fafafa;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+footer .cv-pdf i:hover{
+    color: #e84610;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i{
+    width: 32px;
+    
+}
